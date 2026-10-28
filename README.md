@@ -38,6 +38,7 @@ first tile. Misty won 177 matches, drew 2 and lost 21.
 A bot that scores 55% or better against Misty over 200 matches, 100 from each seat, takes the
 Xiangqi Mahjong title on mistboard.com, with your name on it; the terms are at
 [mistboard.com/champions](https://mistboard.com/champions#challenge).
+To challenge, open an issue here with a link to your bot.
 
 ## Play your bot against Misty
 
