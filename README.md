@@ -8,7 +8,7 @@ Misty is the xiangqi mahjong bot on mistboard.com, published here exactly as it 
 heuristic bot with no search: it counts how many tiles its hand is short of a win and makes the move
 that leaves it closest. This repo holds the bot, the two-player rules it plays by, and a match
 harness for playing your own bot against it. It is an open challenge: build a bot that beats Misty
-and it takes Misty's seat on the site.
+in a match and it takes the Xiangqi Mahjong title on mistboard.com.
 
 **Play it in your browser:** challenge Misty on
 [mistboard.com](https://mistboard.com/?play=computer&gameSpecId=xiangqi-mahjong). No install required.
@@ -35,9 +35,9 @@ Over seeds 1 to 100, each dealt twice with the seats swapped, Misty played the e
 [`examples/first-tile.ts`](examples/first-tile.ts), which wins when it can and otherwise discards its
 first tile. Misty won 177 matches, drew 2 and lost 21.
 
-A bot that scores 55% or better against Misty over 200 matches, 100 from each seat, takes its seat
-on mistboard.com, with your name on it; the terms are at
-[mistboard.com/champions](https://mistboard.com/champions).
+A bot that scores 55% or better against Misty over 200 matches, 100 from each seat, takes the
+Xiangqi Mahjong title on mistboard.com, with your name on it; the terms are at
+[mistboard.com/champions](https://mistboard.com/champions#challenge).
 
 ## Play your bot against Misty
 
