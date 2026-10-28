@@ -1,0 +1,29 @@
+{
+  "name": "misty-xiangqi-mahjong",
+  "version": "0.1.0",
+  "description": "Misty, the xiangqi mahjong bot that plays on mistboard.com, with the rules it plays by and a match harness to challenge it",
+  "license": "AGPL-3.0-or-later",
+  "author": "Brian Liou",
+  "homepage": "https://mistboard.com/?play=computer&gameSpecId=xiangqi-mahjong",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianhliou/misty-xiangqi-mahjong.git"
+  },
+  "private": true,
+  "type": "module",
+  "exports": "./src/index.ts",
+  "files": ["src", "LICENSE", "README.md"],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "tsx --test \"test/**/*.test.ts\"",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "match": "tsx src/cli.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "tsx": "^4.23.1",
+    "typescript": "^7.0.2"
+  }
+}
